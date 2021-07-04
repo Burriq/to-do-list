@@ -1,0 +1,16 @@
+{
+  "name": "burriq/framework",
+  "description": "Basic framework",
+  "license": "GPL-3.0-or-later",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "core\\":"vendor/burriq/framework-core",
+      "app\\":"app"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "burriq/framework-core": "dev-main"
+  }
+}
